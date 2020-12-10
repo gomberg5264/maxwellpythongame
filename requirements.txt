@@ -1,2 +1,1 @@
-python3 game.py
-pip install pygame --user
+Flask==1.0.2
