@@ -5,7 +5,7 @@
 		"COPY ./src /app",
 		"WORKDIR /app",
 		"RUN ls -a",
-		"RUN pip3 install -r pip install pygame --user",
+		"RUN pip3 install -r pip install pygame --user,
 		"CMD [ python3 game.py" ]",
 		"EXPOSE 5000 27017"
 	]
